@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Hüseyin Cesur | Online Randevu </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+
+        <div class="hc-logo" aria-label="Salon Hüseyin Cesur logosu" role="img">
+            <span class="logo-h">H</span>
+            <span class="logo-c">C</span>
+        </div>
+
+        <h2 class="salon-isim">SALON HÜSEYİN CESUR</h2>
+
+        <button type="button" class="mobil-menu-btn" id="mobilMenuBtn" aria-label="Menüyü aç" aria-expanded="false"
+            aria-controls="mobilMenu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="sidebar-nav" id="mobilMenu">
+
+            <a href="#anasayfa" class="menu-link active">
+                <i class="fa-solid fa-house"></i>
+                <span>Ana Sayfa</span>
+            </a>
+
+            <a href="#hizmetler" class="menu-link">
+                <i class="fa-solid fa-scissors"></i>
+                <span>Hizmetler</span>
+            </a>
+
+            <a href="#randevu" class="menu-link">
+                <i class="fa-regular fa-calendar-check"></i>
+                <span>Randevu Al</span>
+            </a>
+
+            <a href="hakkimizda.html" class="menu-link">
+                <i class="fa-solid fa-users"></i>
+                <span>Hakkımızda</span>
+            </a>
+
+            <a href="#iletisim" class="menu-link">
+                <i class="fa-solid fa-phone"></i>
+                <span>İletişim</span>
+            </a>
+
+        </nav>
+
+    </header>
+    <main>
+
+        <section id="anasayfa">
+            <div class="hero-layout">
+                <div class="hero-content">
+
+                    <h2>Salon Hüseyin Cesur</h2>
+                    <h3 class="hero-subtitle">BEAUTY CARE MAN & WOMAN</h3>
+
+                    <p class="hero-description">
+                        Tarzınızı bizimle yeniden keşfedin.
+                        Profesyonel bakım ve güzellik hizmetleri.
+                    </p>
+
+                    <a href="#randevu" class="randevu-btn">
+                        Hemen Randevu Al
+                    </a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/salon-dis.jpg" alt="Salon Hüseyin Cesur dış cephe">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="hizmetler">
+
+            <h2>Hizmetlerimiz</h2>
+
+            <p class="hizmetler-aciklama">
+                Saç, sakal ve kişisel bakım hizmetlerimizi keşfedin.
+            </p>
+
+            <div class="hizmetler-grid">
+
+                <details class="hizmet-kart">
+                    <summary>
+                        <i class="fa-solid fa-scissors"></i>
+                        <h3>Saç Kesimi ve Şekillendirme</h3>
+                        <span>9 Hizmet</span>
+                    </summary>
+                    <ul>
+                        <li>Flow Cut Kesimi</li>
+                        <li>Taper Fade Kesimi</li>
+                        <li>Drop Fade Mullet Kesimi</li>
+                        <li>Crop Fade Kesimi</li>
+                        <li>Wolf Cut Kesimi</li>
+                        <li>Burst Fade Mullet Kesimi</li>
+                        <li>Ustura Saç Kesimi</li>
+                        <li>Fön</li>
+                        <li>Düz Fön</li>
+                    </ul>
+                </details>
+
+                <details class="hizmet-kart">
+                    <summary>
+                        <i class="fa-solid fa-user-tie"></i>
+                        <h3>Sakal ve Damat Hizmetleri</h3>
+                        <span>4 Hizmet</span>
+                    </summary>
+                    <ul>
+                        <li>Damat Tıraşı</li>
+                        <li>Damat Paketi</li>
+                        <li>Ustura Sakal Tıraşı</li>
+                        <li>Sakal Kesim Çeşitleri</li>
+                    </ul>
+                </details>
+
+                <details class="hizmet-kart">
+                    <summary>
+                        <i class="fa-solid fa-palette"></i>
+                        <h3>Saç Boyama ve Özel İşlemler</h3>
+                        <span>3 Hizmet</span>
+                    </summary>
+                    <ul>
+                        <li>Saç Boyama</li>
+                        <li>Röfle</li>
+                        <li>Perma</li>
+                    </ul>
+                </details>
+
+                <details class="hizmet-kart">
+                    <summary>
+                        <i class="fa-solid fa-droplet"></i>
+                        <h3>Saç Bakımları</h3>
+                        <span>1 Hizmet</span>
+                    </summary>
+                    <ul>
+                        <li>Saç Bakım Protokolleri</li>
+                    </ul>
+                </details>
+
+                <details class="hizmet-kart">
+                    <summary>
+                        <i class="fa-solid fa-spa"></i>
+                        <h3>Cilt Bakımları</h3>
+                        <span>5 Hizmet</span>
+                    </summary>
+                    <ul>
+                        <li>Cilt ve Saç Analizi</li>
+                        <li>Mini Cilt Bakımı</li>
+                        <li>Ozon Cilt Bakımı</li>
+                        <li>Profesyonel Cilt Bakımı</li>
+                        <li>Cilt Bakım Protokolleri (Akne, Skar, Leke, Kırışıklık Bakımı)</li>
+                    </ul>
+                </details>
+
+                <details class="hizmet-kart">
+                    <summary>
+                        <i class="fa-solid fa-hand-sparkles"></i>
+                        <h3>Diğer Bakım Hizmetleri</h3>
+                        <span>2 Hizmet</span>
+                    </summary>
+                    <ul>
+                        <li>İğneli Epilasyon</li>
+                        <li>Manikür</li>
+                    </ul>
+                </details>
+
+            </div>
+
+            <p class="hizmetler-not">
+                Bakım hizmetlerimiz unisex (bay ve bayan) olarak sunulmaktadır.
+            </p>
+
+        </section>
+
+
+        <section id="randevu">
+
+            <div class="randevu-baslik">
+                <h2>Randevu Al</h2>
+                <p>Size uygun hizmeti seçerek başlayın.</p>
+            </div>
+
+            <div class="randevu-layout">
+
+                <div class="randevu-panel">
+
+                    <div class="randevu-adimlar">
+                        <span class="aktif">Hizmet</span>
+                        <span>Personel</span>
+                        <span>Tarih</span>
+                        <span>Saat</span>
+                        <span>Bilgiler</span>
+                        <span>Onay</span>
+                    </div>
+
+
+                    <!-- 1. AŞAMA: HİZMET SEÇİMİ -->
+                    <div id="hizmetAdimi">
+                        <h3>Hizmet Seçimi</h3>
+                        <p>Bir veya birden fazla hizmet seçebilirsiniz.</p>
+
+                        <div id="hizmetListesi"></div>
+                    </div>
+
+                    <!-- 2. AŞAMA: PERSONEL SEÇİMİ -->
+                    <div id="personelAdimi" hidden>
+                        <h3>Personel Seçimi</h3>
+                        <p>İşleminizi gerçekleştirecek personeli seçin.</p>
+
+                        <div class="personel-listesi">
+                            <button type="button" class="personel-kart" data-personel="Fark Etmez">
+                                <i class="fa-solid fa-users"></i>
+                                <span>Fark Etmez</span>
+                            </button>
+
+                            <button type="button" class="personel-kart" data-personel="Personel 1">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Personel 1</span>
+                            </button>
+
+                            <button type="button" class="personel-kart" data-personel="Personel 2">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Personel 2</span>
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <!-- 3. AŞAMA: TARİH SEÇİMİ -->
+                    <div id="tarihAdimi" hidden>
+                        <h3>Tarih Seçimi</h3>
+                        <p>Randevunuz için uygun bir tarih seçin.</p>
+
+                        <label for="randevuTarihi">Randevu Tarihi</label>
+                        <input type="date" id="randevuTarihi" required>
+                    </div>
+                    <!-- 4. AŞAMA: SAAT SEÇİMİ -->
+                    <div id="saatAdimi" hidden>
+
+                        <h3>Saat Seçimi</h3>
+                        <p>Randevunuz için uygun saati seçin.</p>
+
+                        <div class="saat-listesi">
+
+                            <button type="button" class="saat-kart" data-saat="09:00">09:00</button>
+                            <button type="button" class="saat-kart" data-saat="09:30">09:30</button>
+                            <button type="button" class="saat-kart" data-saat="10:00">10:00</button>
+                            <button type="button" class="saat-kart" data-saat="10:30">10:30</button>
+                            <button type="button" class="saat-kart" data-saat="11:00">11:00</button>
+                            <button type="button" class="saat-kart" data-saat="11:30">11:30</button>
+                            <button type="button" class="saat-kart" data-saat="12:00">12:00</button>
+                            <button type="button" class="saat-kart" data-saat="12:30">12:30</button>
+                            <button type="button" class="saat-kart" data-saat="13:00">13:00</button>
+                            <button type="button" class="saat-kart" data-saat="13:30">13:30</button>
+                            <button type="button" class="saat-kart" data-saat="14:00">14:00</button>
+                            <button type="button" class="saat-kart" data-saat="14:30">14:30</button>
+                            <button type="button" class="saat-kart" data-saat="15:00">15:00</button>
+                            <button type="button" class="saat-kart" data-saat="15:30">15:30</button>
+                            <button type="button" class="saat-kart" data-saat="16:00">16:00</button>
+                            <button type="button" class="saat-kart" data-saat="16:30">16:30</button>
+                            <button type="button" class="saat-kart" data-saat="17:00">17:00</button>
+                            <button type="button" class="saat-kart" data-saat="17:30">17:30</button>
+                            <button type="button" class="saat-kart" data-saat="18:00">18:00</button>
+                            <button type="button" class="saat-kart" data-saat="18:30">18:30</button>
+                            <button type="button" class="saat-kart" data-saat="19:00">19:00</button>
+                            <button type="button" class="saat-kart" data-saat="19:30">19:30</button>
+
+                        </div>
+
+                    </div>
+
+                    <!-- 5. AŞAMA: MÜŞTERİ BİLGİLERİ -->
+                    <div id="bilgilerAdimi" hidden>
+                        <h3>İletişim Bilgileriniz</h3>
+                        <p>Randevunuzu oluşturmak için bilgilerinizi girin.</p>
+
+                        <div class="musteri-form">
+
+                            <label for="musteriAd">Ad Soyad</label>
+                            <input type="text" id="musteriAd" placeholder="Adınızı ve soyadınızı girin"
+                                autocomplete="name" required>
+
+                            <label for="musteriTelefon">Telefon Numarası</label>
+                            <input type="tel" id="musteriTelefon" placeholder="05XX XXX XX XX" autocomplete="tel"
+                                inputmode="tel" maxlength="11" required>
+
+                        </div>
+                    </div>
+
+                    <!-- 6. AŞAMA: RANDEVU ONAYI -->
+                    <div id="onayAdimi" hidden>
+
+                        <h3>Randevunuzu Kontrol Edin</h3>
+                        <p>Randevu bilgilerinizi kontrol ederek devam edin.</p>
+
+                        <div class="onay-kutusu">
+                            <h4>Randevu Detayları</h4>
+                            <div id="onayDetaylari"></div>
+                        </div>
+
+                        <p class="onay-uyari">
+                            Bilgilerinizin doğru olduğundan emin olun.
+                        </p>
+
+                    </div>
+
+                    <div class="randevu-navigasyon">
+                        <button type="button" id="geriBtn" hidden>
+                            ← Geri
+                        </button>
+
+                        <button type="button" id="devamBtn" disabled>
+                            Devam Et →
+                        </button>
+                    </div>
+
+                </div> <!-- randevu-panel kapanışı -->
+
+                <aside class="randevu-ozet">
+                    <h3>Randevu Özeti</h3>
+
+                    <div id="secilenHizmetler">
+                        Henüz hizmet seçilmedi.
+                    </div>
+                </aside>
+
+            </div> <!-- randevu-layout kapanışı -->
+
+        </section>
+
+
+        <section id="iletisim">
+            <p class="iletisim-ust">SALON HÜSEYİN CESUR</p>
+            <h2>Bizimle İletişime Geçin</h2>
+            <p class="iletisim-aciklama">
+                Sorularınız ve randevu talepleriniz için bize ulaşın.
+            </p>
+
+            <div class="iletisim-grid">
+                <div class="iletisim-kart">
+                    <h3><i class="fa-solid fa-location-dot"></i> Adres</h3>
+                    <p>Hacı Kasım Mah. Cumhuriyet Cad. No: 11A, Şile/İstanbul</p>
+                </div>
+
+                <div class="iletisim-kart">
+                    <h3><i class="fa-solid fa-phone"></i> Telefon</h3>
+                    <p>0507 209 33 30</p>
+                </div>
+
+                <div class="iletisim-kart">
+                    <h3><i class="fa-regular fa-clock"></i> Çalışma Saatleri</h3>
+                    <p>Çalışma saatleri buraya gelecek</p>
+                </div>
+
+                <div class="iletisim-kart instagram-kart">
+                    <h3>
+                        <i class="fa-brands fa-instagram"></i>
+                        Instagram
+                    </h3>
+
+                    <p>@huseyincesurofficial</p>
+
+                    <a href="https://www.instagram.com/huseyincesurofficial/" target="_blank" rel="noopener noreferrer"
+                        class="instagram-link">
+                        <i class="fa-brands fa-instagram"></i>
+                        Profili Ziyaret Et
+                    </a>
+                </div>
+            </div>
+
+            <div class="iletisim-butonlar">
+
+                <a href="https://wa.me/905072093330?text=Merhaba%2C%20Salon%20H%C3%BCseyin%20Cesur%20i%C3%A7in%20randevu%20almak%20istiyorum."
+                    target="_blank" rel="noopener noreferrer" class="iletisim-btn whatsapp-btn">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    WhatsApp ile İletişim
+                </a>
+
+
+                <a href="https://www.google.com/maps/dir/?api=1&destination=Hac%C4%B1+Kas%C4%B1m+Mahallesi+Cumhuriyet+Caddesi+11A+%C5%9Eile+%C4%B0stanbul"
+                    target="_blank" rel="noopener noreferrer" class="iletisim-btn konum-btn">
+                    Yol Tarifi Al
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="footer-marka">SALON HÜSEYİN CESUR</p>
+        <p class="footer-telif">© 2026 Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
